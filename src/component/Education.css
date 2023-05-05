@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.EducationGrup{
+    padding: 0 120px;
+    margin-top: 100px;
+    text-align: left;
+}
+.EducationGrup h2{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    color: #FF8303;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.line{
+    position: relative;
+    margin-top: 16px;
+    padding: 0 650px;
+    width: 100px;
+    height: 10px;
+    border-radius: 25px;
+    background: #343331;
+    display: flex;
+}
+
+.EducationGrup text{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 30px;
+    text-align: left;
+    color: #F0E3CA
+}
+
+/* start years */
+
+.EducationContent .text1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.EducationContent .text2{
+    margin-top: -29px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+}
+
+.EducationContent .text3{
+    display: flex;
+    flex-direction: row;
+    margin-top: -31px;
+    padding-left: 450px;
+}
+
+.EducationContent .text4{
+    display: flex;
+    flex-direction: row;
+    margin-top: -31px;
+    padding-left: 700px;
+
+}
+.EducationContent .text5{
+    display: flex;
+    flex-direction: row;
+    margin-top: -31px;
+    padding-left: 900px;
+
+}
+
+/* Start p */
+
+.OlSchool .text1{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Esoft .text2{
+    position: relative;
+    margin-top: 16px;
+    padding-left: 450px;
+    display: flex;
+    flex-direction: row;
+}
+
+.AlSchool .text3{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 720px;
+}
+
+.Uni .text4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    padding-left: 885px;
+}
+
+
+/* Orange line */
+
+.OlSchool .OlLine{
+    margin-top: 20px;
+    width: 250px;
+    height: 16px;
+    border-radius: 0 25px 25px 0px;
+    background-color: #FF8303;
+}
+
+.Esoft .EsostLine{
+    margin-left: 450px;
+    margin-top: 1px;
+    width: 200px;
+    height: 16px;
+    border-radius: 0 25px 25px 0px;
+    background-color: #FF8303;
+}
+
+.AlSchool .AlSchoolLine{
+    margin-left: 720px;
+    margin-top: 20px;
+    width: 170px;
+    height: 16px;
+    border-radius: 0 25px 25px 0px;
+    background-color: #FF8303;
+}
+
+.Uni .UniLine{
+    margin-left: 885px;
+    margin-top: 1px;
+    width: 412px;
+    height: 16px;
+    border-radius: 0 25px 25px 0px;
+    background-color: #FF8303;
+}
+
+@media (min-width:0px) and  (max-width:1080px) {
+    .line{
+        display: flex;
+        flex-direction: row;
+        margin-top: 16px;
+        padding:0 0px;
+        width: 10px;
+        height: 500px;
+        border-radius: 25px;
+        background: #343331;
+    }
+
+    /* start years */
+
+.EducationContent .text1{
+    margin-top: -500px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.OlSchool .OlLine{
+
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 0px;
+    height: 0px;
+    border-radius: 25px ;
+    background-color: #FF8303;
+}
+
+.OlSchool .text1{
+    margin-top: -485px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.EducationContent .text2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.Esoft .text2{
+    position: relative;
+    margin-top: 35px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.EducationContent .text3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-left: 20px;
+}
+
+.AlSchool .text3{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+
+.EducationContent .text4{
+    display: flex;
+    flex-direction:column;
+    margin-top: 120px;
+    padding-left: 20px;
+
+}
+
+.EducationContent .text5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 20px;
+
+
+}
+
+.Uni .text4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left:20px;
+}
+.Esoft .EsostLine{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 0px;
+    height: 0px;
+    border-radius: 0 25px 25px 0px;
+    background-color: #FF8303;
+}
+
+.AlSchool .AlSchoolLine{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 0px;
+    height: 0px;
+    border-radius: 0 25px 25px 0px;
+    background-color: #FF8303;
+}
+
+.Uni .UniLine{
+    margin-left: 0px;
+    margin-top:0px;
+    width: 0px;
+    height: 0px;
+    border-radius: 0 25px 25px 0px;
+    background-color: #FF8303;
+}
+}

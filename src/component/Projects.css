@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Projects h2{
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 40px;
+    color: #FF8303;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.ProjectContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 120px 120px;
+}
+
+.Rectangle h3{
+    
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #F0E3CA;
+    padding-top: 25px;    
+}
+
+.Rectangle{
+
+    border-radius: 20px;
+    width: 374px;
+    height:540px;
+    background: #343331;
+}
+
+.ProjectList{
+    display:flex;
+    padding: 0 40px;
+}
+.ProjectList img{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 64px;
+}
+
+.ProjectListTitle{
+    text-align: left;
+}
+
+.ProjectListTitle h4{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px; 
+    color: #FF8303;
+}
+.ProjectListTitle p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    color: #F0E3CA;;
+}
+
+.ProjectList img{
+    height: 64px;
+    Display:flex;
+    flex-direction: row;
+    border-radius: 50px;
+}
+
+.RectangleGroup{
+    display:flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.Heading{
+    padding-left: 10px;
+}
+.Heading1{
+    margin-top: 15px;
+    padding-left:40px;
+}
+.Heading3{
+    margin-top:500px;
+    padding-left:10px;
+}
+.Heading4{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.Change img{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 300px;
+    padding:20px;
+}
+.Change1 img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 70%;
+    
+    
+}.Change2 img{
+    display:flex;
+    flex-direction: row;
+   
+    width: 250px;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.SkillsTitle h2{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 40px;
+    color: #FF8303;
+    text-align: center;
+    margin-bottom: -50px;
+
+}
+
+.SkillsContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 120px;
+}
+
+.Rectangle h3{
+    
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #F0E3CA;
+    padding-top: 25px;    
+}
+
+.Rectangle{
+
+    border-radius: 20px;
+    width: 374px;
+    height:540px;
+    background: #343331;
+}
+
+.SkillList{
+    display:flex;
+    padding: 0 40px;
+}
+.SkillList img{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 64px;
+}
+
+.SkillListTitle{
+    text-align: left;
+
+}
+
+.SkillListTitle h4{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px; 
+    color: #FF8303;
+}
+.SkillListTitle p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F0E3CA;;
+}
+
+.SkillList img{
+    Display:flex;
+    flex-direction: row;
+    border-radius: 50px;
+}
+
+.RectangleGroup{
+    display:flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.Skills{
+    animation: load 2s ease-out;
+}
+
+@keyframes load{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
+@media (min-width:720px) and (max-width:1199px){
+    .SkillsContent{
+        padding: 100px 80px;
+    }
+    .Rectangle{
+        position: relative;
+        width: 284px;
+        height: 540px;
+    }
+    }
+    .Rectangle h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .SkillListTitle h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .SkillListTitle p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .SkillList img{
+        width: 48px;
+    }
+    .SkillsTitle h2{
+        font-size: 48px;
+        line-height: 40px;
+    }
+
